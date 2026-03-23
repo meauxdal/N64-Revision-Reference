@@ -73,7 +73,7 @@ A comprehensive record of Nintendo 64 motherboard revisions across all regions, 
 
 ### 1.1 Scope
 
-[TODO -- NTSC, PAL, PAL-M production hardware. Engineering samples noted separately. iQue out of scope.]
+[TODO - iQue *may* be outside scope. We intend to at least acknowledge early iterations / prototype hardware.]
 
 ### 1.2 Methodology
 
@@ -81,24 +81,17 @@ A comprehensive record of Nintendo 64 motherboard revisions across all regions, 
 
 ### 1.3 Confidence Hierarchy
 
-Four-tier hierarchy applied consistently throughout:
-
-1. Revision marking visible and legible: **confirmed**
-2. Revision marking illegible; chip heuristic matches expected profile: **provisional**
-3. No marking visible; chip and crystal date consistent with one revision: **inferred**
-4. No marking; chip and date range consistent with multiple revisions: **ambiguous** -- note the range
-
-Confidence level is stated at the entry level and, where relevant, at the individual component level within an entry.
+[TODO]
 
 ### 1.4 Conventions
 
-[TODO -- Code blocking, register names, date code notation, etc. Cross-reference to timing reference conventions where applicable.]
+[TODO]
 
 ---
 
 ## 2. Revision Overview
 
-Summary tables. One row per revision. Key differentiating components only; full profiles in §4.
+Summary tables. One row per revision. Abridged; full profiles in §4.
 
 ### 2.1 NTSC Revisions
 
@@ -173,7 +166,7 @@ Each section traces a single component or subsystem across the full production r
 
 ### 3.7 RDRAM
 
-[TODO -- 2x RDRAM18-NUS-NUS A to 1x RDRAM36-NUS-NUS transition. Transition point (NUS-CPU-06 or later). Datecodes across corpus.]
+[TODO -- 2x RDRAM18-NUS A to 1x RDRAM36-NUS transition. Transition point (NUS-CPU-06 or later). Datecodes across corpus.]
 
 ### 3.8 Support Logic (U8)
 
@@ -203,7 +196,7 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU-01
 
-*Gold example: Prominos_01*
+*Gold candidate: Prominos_01*
 
 [TODO]
 
@@ -211,11 +204,15 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU-02
 
+*Gold candidate: Prominos_02*
+
 [TODO]
 
 ---
 
 #### NUS-CPU-03
+
+*Gold candidate: Prominos_03*
 
 [TODO]
 
@@ -223,11 +220,15 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU-04
 
+*Gold candidate: Prominos_04*
+
 [TODO]
 
 ---
 
 #### NUS-CPU-05
+
+*Gold candidate: Prominos_05*
 
 [TODO]
 
@@ -235,13 +236,15 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU-05-1
 
+*Gold candidate: Prominos_05-1*
+
 [TODO]
 
 ---
 
 #### NUS-CPU-06
 
-*Gold example: pending (grav)*
+*Gold candidate: pending (grav)*
 
 [TODO -- Extremely rare. One known image of reasonable quality (DragonsHoardLabs). Awaiting higher-resolution example.]
 
@@ -249,13 +252,15 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU-07
 
-*Gold example: pending (grav)*
+*Gold candidate: pending (grav)*
 
 [TODO -- Extremely rare. U15 = MX8330MC confirmed (ChipWorks). U7 identity unconfirmed photographically.]
 
 ---
 
 #### NUS-CPU-08
+
+*Gold candidate: Prominos_08*
 
 [TODO]
 
@@ -275,7 +280,7 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU-09-1
 
-*Gold example: Aringon_01*
+*Gold candidate: Aringon_01*
 
 [TODO]
 
@@ -285,7 +290,7 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU(R)-01
 
-*Gold example: Prominos_R01*
+*Gold candidate: Prominos_R01*
 
 [TODO -- French PAL. S-RGB A encoder. NUS-001(FRA) exclusively.]
 
@@ -319,7 +324,7 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU(M)-01
 
-*Gold example: grav_01*
+*Gold candidate: pending (grav)*
 
 [TODO]
 
@@ -333,7 +338,7 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU(M)-03
 
-*Gold example: Lima112_01*
+*Gold candidate: Lima112_01*
 
 [TODO]
 
@@ -341,19 +346,19 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU(M)-04
 
-[TODO -- No board image available. Entry is a stub pending source material.]
+[TODO -- No board image available.]
 
 ---
 
 #### NUS-CPU(M)-05
 
-[TODO -- No board image available. Entry is a stub pending source material.]
+[TODO -- No board image available.]
 
 ---
 
 #### NUS-CPU(M)-05-1
 
-*Gold example: Mielke_01*
+*Gold candidate: Mielke_01*
 
 [TODO]
 
@@ -363,7 +368,7 @@ Each entry follows a consistent structure:
 
 #### NUS-CPU-E7I
 
-[TODO -- Non-retail engineering sample. Board marking NUS-CPU-E7I. Serial: 32 only. Untextured shell consistent with prototype tooling. Crystal stamps: D143A6 / D147A6 (Jan 1996 / Jan 1996). Source: KontrolledKhaos_01 (AssemblerGames, Aug 2016). Photos exist in archived thread but not yet recovered for this corpus.]
+[[TODO -- Non-retail engineering sample. Board marking NUS-CPU-E7I. Serial: 32 only. Untextured shell consistent with prototype tooling. Crystal stamps: D143A6 / D147A6 (Jan 1996 / Jan 1996). Source: KontrolledKhaos_01 (AssemblerGames, Aug 2016). Photos recovered at full quality via ~29 GB archive.org WARC file of assemblergames.org from 2018.]]
 
 ---
 
