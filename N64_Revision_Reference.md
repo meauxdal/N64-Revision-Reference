@@ -102,7 +102,7 @@ NUS-CPU-02   |                  | CPU-NUS     | 2x MX8330MC                     
 NUS-CPU-03   |                  | CPU-NUS (A) | 2x MX8330MC                       | VDC-NUS (A) + ENC-NUS | 2x RDRAM18-NUS A | Discrete          | First appearance of CPU-NUS A (mid-run) and VDC-NUS A (mid-run)
 NUS-CPU-04   |                  | CPU-NUS A   | 2x MX8330MC                       | VDC-NUS A + ENC-NUS   | 2x RDRAM18-NUS B | Discrete          | First appearance of RDRAM18-NUS B
 NUS-CPU-05   |                  | CPU-NUS A   | MX8330MC + MX9911MC               | AVDC-NUS (MAV-NUS)    | 2x RDRAM18-NUS B | Discrete          | Only appearance of AVDC-NUS; first appearance of MAV-NUS (mid-run) and MX9911MC
-NUS-CPU-05-1 |                  | CPU-NUS A   | MX8330MC + MX9911MC (2x MX9911MC) | MAV-NUS               | 2x RDRAM18-NUS A | Discrete          | First appearance of dual MX9911MC; overlaps 05
+NUS-CPU-05-1 |                  | CPU-NUS A   | MX8330MC + MX9911MC (2x MX9911MC) | MAV-NUS               | 2x RDRAM18-NUS B | Discrete          | First appearance of dual MX9911MC; overlaps 05
 NUS-CPU-06   |                  | CPU-NUS A   | MX8330MC + MX9911MC (?)           | MAV-NUS               | RDRAM36-NUS      | Discrete          | First appearance of RDRAM36-NUS; very rare; overlaps 05
 NUS-CPU-07   |                  | CPU-NUS A   | MX8330MC + MX9911MC (?)           | MAV-NUS               | RDRAM36-NUS      | Discrete          | Very rare; overlaps 05
 NUS-CPU-08   |                  | CPU-NUS A   | MX8350                            | MAV-NUS               | RDRAM36-NUS      | Discrete          | First appearance of MX8350
@@ -115,11 +115,15 @@ NUS-CPU-09-1 |                  | CPU-NUS A   | MX8350                          
 
 Revision        | PCB Date (range) | CPU-NUS       | Clock Gen                         | Video Path          | RDRAM            | CPU+RCP Heatsinks | Notes
 :-------------- | :--------------- | :------------ | :-------------------------------- | :------------------ | :--------------- | :---------------- | :--------------------------------------------------------------
-NUS-CPU(R)-01   |                  | [unconfirmed] | 2x MX8330MC                       | VDC-NUS A + S-RGB A | 2x RDRAM18-NUS A | Discrete          | Rare; NUS-001(FRA) only
 NUS-CPU(P)-01   |                  | [unconfirmed] | 2x MX8330MC (MX8330MC + MX9911MC) | DENC-NUS            | 2x RDRAM18-NUS A | Discrete          | Only appearance of DENC-NUS
 NUS-CPU(P)-02   |                  | CPU-NUS A     | [unconfirmed]                     | MAV-NUS             | [unconfirmed]    | Discrete          |
 NUS-CPU(P)-03   |                  | CPU-NUS A     | [unknown]                         | MAV-NUS             | [unknown]        | [unknown]         | Entirely undocumented, provenance unconfirmed; likely very rare
 NUS-CPU(P)-03-1 |                  | CPU-NUS A     | MX8350                            | MAV-NUS             | RDRAM36-NUS      | Integrated        | Likely (very) rare, posited to be AUS-only
+
+
+Revision        | PCB Date (range) | CPU-NUS       | Clock Gen                         | Video Path          | RDRAM            | CPU+RCP Heatsinks | Notes
+:-------------- | :--------------- | :------------ | :-------------------------------- | :------------------ | :--------------- | :---------------- | :--------------------------------------------------------------
+NUS-CPU(R)-01   |                  | [unconfirmed] | 2x MX8330MC                       | VDC-NUS A + S-RGB A | 2x RDRAM18-NUS A | Discrete          | Rare; NUS-001(FRA) only
 
 
 ### 2.3 PAL-M Revisions
