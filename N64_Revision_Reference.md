@@ -132,9 +132,9 @@ Revision        | PCB Date (range) | CPU-NUS       | Clock Gen     | Video Path 
 :-------------- | :--------------- | :------------ | :------------ | :---------------------- | :--------------- | :---------------- | :---------------------------------
 NUS-CPU(M)-01   |                  | [unconfirmed] | 2x MX8330MC   | VDC-NUS (?) + ENC-NUS   | 2x RDRAM18-NUS A | Discrete          |
 NUS-CPU(M)-02   |                  | [unconfirmed] | [unconfirmed] | VDC-NUS A (?) + ENC-NUS | [unconfirmed]    | Discrete          |
-NUS-CPU(M)-03   |                  | CPU-NUS A     | [unconfirmed] | MAV-NUS?                | [unconfirmed]    | Discrete          |
-NUS-CPU(M)-04   |                  | [unknown]     | [unknown]     | [unknown]               | MAV-NUS          | [unknown]         | Entirely undocumented; likely (very) rare
-NUS-CPU(M)-05   |                  | [unknown]     | [unknown]     | [unknown]               | MAV-NUS          | [unknown]         | Entirely undocumented; likely (very) rare
+NUS-CPU(M)-03   |                  | CPU-NUS A     | [unconfirmed] | MAV-NUS                 | [unconfirmed]    | Discrete          | Confirmed cannot be easily RGB modded
+NUS-CPU(M)-04   |                  | [unknown]     | [unknown]     | MAV-NUS                 | MAV-NUS          | [unknown]         | Entirely undocumented; likely (very) rare
+NUS-CPU(M)-05   |                  | [unknown]     | [unknown]     | MAV-NUS                 | MAV-NUS          | [unknown]         | Entirely undocumented; likely (very) rare
 NUS-CPU(M)-05-1 |                  | CPU-NUS A     | MX8350        | MAV-NUS                 | RDRAM36-NUS      | Integrated        |
 
 
