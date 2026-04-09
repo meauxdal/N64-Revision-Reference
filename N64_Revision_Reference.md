@@ -95,48 +95,64 @@ Summary tables. One row per revision. Abridged; full profiles in §4.
 
 ### 2.1 NTSC Revisions
 
+#### Japan (variants)
+
+Revision   | PCB Date (range) | CPU-NUS | Clock Gen   | Video Path        | RDRAM            | CPU+RCP Heatsinks | Notes
+:--------- | :--------------- | :------ | :---------- | :---------------- | :--------------- | :---------------- | :--------------------------
+NUS-CPU-01 |                  | CPU-NUS | 2x MX8330MC | VDC-NUS + ENC-NUS | 2x RDRAM18-NUS A | Discrete          | NUS-001(JPN)-only
+NUS-CPU-02 |                  | CPU-NUS | 2x MX8330MC | VDC-NUS + ENC-NUS | 2x RDRAM18-NUS A | Discrete          | NUS-001(JPN)-only at retail
+
+#### USA
+
 Revision     | PCB Date (range) | CPU-NUS     | Clock Gen                         | Video Path            | RDRAM            | CPU+RCP Heatsinks | Notes
-:----------- | :--------------- | :---------- | :-------------------------------- | :-------------------- | :--------------- | :---------------- | :------------------------------------------------------------------------------
-NUS-CPU-01   |                  | CPU-NUS     | 2x MX8330MC                       | VDC-NUS + ENC-NUS     | 2x RDRAM18-NUS A | Discrete          | Rare, posited to be NUS-001(JPN)-only
-NUS-CPU-02   |                  | CPU-NUS     | 2x MX8330MC                       | VDC-NUS + ENC-NUS     | 2x RDRAM18-NUS A | Discrete          |
-NUS-CPU-03   |                  | CPU-NUS (A) | 2x MX8330MC                       | VDC-NUS (A) + ENC-NUS | 2x RDRAM18-NUS A | Discrete          | First appearance of CPU-NUS A (mid-run) and VDC-NUS A (mid-run)
+:----------- | :--------------- | :---------- | :-------------------------------- | :-------------------- | :--------------- | :---------------- | :------------------------------------------------------------------------------------
+NUS-CPU-02   |                  | CPU-NUS     | 2x MX8330MC                       | VDC-NUS + ENC-NUS     | 2x RDRAM18-NUS A | Discrete          | NUS-001(USA) examples exclusively observed in store kiosk units
+NUS-CPU-03   |                  | CPU-NUS (A) | 2x MX8330MC                       | VDC-NUS (A) + ENC-NUS | 2x RDRAM18-NUS A | Discrete          | First appearance of CPU-NUS A and VDC-NUS A (mid-run; boundary aligns with 1996/1997)
 NUS-CPU-04   |                  | CPU-NUS A   | 2x MX8330MC                       | VDC-NUS A + ENC-NUS   | 2x RDRAM18-NUS B | Discrete          | First appearance of RDRAM18-NUS B
-NUS-CPU-05   |                  | CPU-NUS A   | MX8330MC + MX9911MC               | AVDC-NUS (MAV-NUS)    | 2x RDRAM18-NUS B | Discrete          | Only appearance of AVDC-NUS; first appearance of MAV-NUS (mid-run) and MX9911MC
-NUS-CPU-05-1 |                  | CPU-NUS A   | MX8330MC + MX9911MC (2x MX9911MC) | MAV-NUS               | 2x RDRAM18-NUS B | Discrete          | First appearance of dual MX9911MC; overlaps 05
-NUS-CPU-06   |                  | CPU-NUS A   | MX8330MC + MX9911MC (?)           | MAV-NUS               | RDRAM36-NUS      | Discrete          | First appearance of RDRAM36-NUS; very rare; overlaps 05
-NUS-CPU-07   |                  | CPU-NUS A   | MX8330MC + MX9911MC (?)           | MAV-NUS               | RDRAM36-NUS      | Discrete          | Very rare; overlaps 05
+NUS-CPU-05   |                  | CPU-NUS A   | MX8330MC + MX9911MC               | AVDC-NUS (MAV-NUS)    | 2x RDRAM18-NUS B | Discrete          | Only appearance of AVDC-NUS; first appearance of MX9911MC and MAV-NUS (mid-run)
+NUS-CPU-05-1 |                  | CPU-NUS A   | MX8330MC + MX9911MC (2x MX9911MC) | MAV-NUS               | 2x RDRAM18-NUS B | Discrete          | Only(?) appearance of 2x MX9911MC; overlaps 05
+NUS-CPU-06   |                  | CPU-NUS A   | MX8330MC + MX9911MC (?)           | MAV-NUS               | RDRAM36-NUS      | Discrete          | Very rare; first appearance of RDRAM36-NUS; overlaps 05(-1)
+NUS-CPU-07   |                  | CPU-NUS A   | MX8330MC + MX9911MC (?)           | MAV-NUS               | RDRAM36-NUS      | Discrete          | Very rare; overlaps 05(-1)
 NUS-CPU-08   |                  | CPU-NUS A   | MX8350                            | MAV-NUS               | RDRAM36-NUS      | Discrete          | First appearance of MX8350
 NUS-CPU-08-1 |                  | CPU-NUS A   | MX8350                            | MAV-NUS               | RDRAM36-NUS      | Discrete          |
 NUS-CPU-09   |                  | CPU-NUS A   | MX8350                            | MAV-NUS               | RDRAM36-NUS      | Integrated        | First appearance of integrated CPU/RCP heatsinks
 NUS-CPU-09-1 |                  | CPU-NUS A   | MX8350                            | MAV-NUS               | RDRAM36-NUS      | Integrated        |
 
-
 ### 2.2 PAL Revisions
 
-Revision        | PCB Date (range) | CPU-NUS       | Clock Gen                         | Video Path          | RDRAM            | CPU+RCP Heatsinks | Notes
-:-------------- | :--------------- | :------------ | :-------------------------------- | :------------------ | :--------------- | :---------------- | :--------------------------------------------------------------
-NUS-CPU(P)-01   |                  | [unconfirmed] | 2x MX8330MC (MX8330MC + MX9911MC) | DENC-NUS            | 2x RDRAM18-NUS A | Discrete          | Only appearance of DENC-NUS
-NUS-CPU(P)-02   |                  | CPU-NUS A     | [unconfirmed]                     | MAV-NUS             | [unconfirmed]    | Discrete          |
-NUS-CPU(P)-03   |                  | CPU-NUS A     | [unknown]                         | MAV-NUS             | [unknown]        | [unknown]         | Entirely undocumented, provenance unconfirmed; likely very rare
-NUS-CPU(P)-03-1 |                  | CPU-NUS A     | MX8350                            | MAV-NUS             | RDRAM36-NUS      | Integrated        | Likely (very) rare, posited to be AUS-only
+#### Europe
 
+Revision        | PCB Date (range) | CPU-NUS       | Clock Gen                         | Video Path | RDRAM            | CPU+RCP Heatsinks | Notes
+:-------------- | :--------------- | :------------ | :-------------------------------- | :--------- | :--------------- | :---------------- | :--------------------------------------------------------------------
+NUS-CPU(P)-01   |                  | [unconfirmed] | 2x MX8330MC (MX8330MC + MX9911MC) | DENC-NUS   | 2x RDRAM18-NUS A | Discrete          | Only appearance of DENC-NUS
+NUS-CPU(P)-02   |                  | CPU-NUS A     | MX8350                            | MAV-NUS    | RDRAM36-NUS      | Discrete          | EUR (P)-02 is Copyright 1999; LC125 replaced with 4x discrete buffers
+NUS-CPU(P)-03   |                  | CPU-NUS A     | MX8350                            | MAV-NUS    | RDRAM36-NUS      | [unknown]         | S-Video components removed
+NUS-CPU(P)-03-1 |                  | CPU-NUS A     | MX8350                            | MAV-NUS    | RDRAM36-NUS      | Integrated        | S-Video components removed
 
-Revision        | PCB Date (range) | CPU-NUS       | Clock Gen                         | Video Path          | RDRAM            | CPU+RCP Heatsinks | Notes
-:-------------- | :--------------- | :------------ | :-------------------------------- | :------------------ | :--------------- | :---------------- | :--------------------------------------------------------------
-NUS-CPU(R)-01   |                  | [unconfirmed] | 2x MX8330MC                       | VDC-NUS A + S-RGB A | 2x RDRAM18-NUS A | Discrete          | Rare; NUS-001(FRA) only
+#### France (variants)
 
+Revision      | PCB Date (range) | CPU-NUS   | Clock Gen   | Video Path          | RDRAM            | CPU+RCP Heatsinks | Notes
+:------------ | :--------------- | :-------- | :---------- | :------------------ | :--------------- | :---------------- | :----------------
+NUS-CPU(R)-01 |                  | CPU-NUS A | 2x MX8330MC | VDC-NUS A + S-RGB A | 2x RDRAM18-NUS A | Discrete          | NUS-001(FRA)-only
+
+#### Australia (variants)
+
+Revision        | PCB Date (range) | CPU-NUS   | Clock Gen | Video Path | RDRAM       | CPU+RCP Heatsinks | Notes
+:-------------- | :--------------- | :-------- | :-------- | :--------- | :---------- | :---------------- | :--------------------------------------------------------------------
+NUS-CPU(P)-02   |                  | CPU-NUS A | MX8350    | MAV-NUS    | RDRAM36-NUS | Discrete          | AUS (P)-02 is Copyright 1998; LC125 replaced with 4x discrete buffers
+NUS-CPU(P)-03   |                  | CPU-NUS A | MX8350    | MAV-NUS    | RDRAM36-NUS | [unknown]         | S-Video components removed
+NUS-CPU(P)-03-1 |                  | CPU-NUS A | MX8350    | MAV-NUS    | RDRAM36-NUS | Integrated        | S-Video components removed
 
 ### 2.3 PAL-M Revisions
 
 Revision        | PCB Date (range) | CPU-NUS       | Clock Gen     | Video Path              | RDRAM            | CPU+RCP Heatsinks | Notes
-:-------------- | :--------------- | :------------ | :------------ | :---------------------- | :--------------- | :---------------- | :---------------------------------
+:-------------- | :--------------- | :------------ | :------------ | :---------------------- | :--------------- | :---------------- | :-----------
 NUS-CPU(M)-01   |                  | [unconfirmed] | 2x MX8330MC   | VDC-NUS (?) + ENC-NUS   | 2x RDRAM18-NUS A | Discrete          |
 NUS-CPU(M)-02   |                  | [unconfirmed] | [unconfirmed] | VDC-NUS A (?) + ENC-NUS | [unconfirmed]    | Discrete          |
-NUS-CPU(M)-03   |                  | CPU-NUS A     | [unconfirmed] | MAV-NUS                 | [unconfirmed]    | Discrete          | Confirmed cannot be easily RGB modded
-NUS-CPU(M)-04   |                  | [unknown]     | [unknown]     | MAV-NUS                 | MAV-NUS          | [unknown]         | Entirely undocumented; likely (very) rare
-NUS-CPU(M)-05   |                  | [unknown]     | [unknown]     | MAV-NUS                 | MAV-NUS          | [unknown]         | Entirely undocumented; likely (very) rare
+NUS-CPU(M)-03   |                  | CPU-NUS A     | [unconfirmed] | MAV-NUS                 | [unconfirmed]    | Discrete          |
+NUS-CPU(M)-04   |                  | [unknown]     | [unknown]     | MAV-NUS                 | [unknown]        | [unknown]         | Undocumented
+NUS-CPU(M)-05   |                  | [unknown]     | [unknown]     | MAV-NUS                 | [unknown]        | [unknown]         | Undocumented
 NUS-CPU(M)-05-1 |                  | CPU-NUS A     | MX8350        | MAV-NUS                 | RDRAM36-NUS      | Integrated        |
-
 
 ---
 
@@ -146,15 +162,15 @@ Each section traces a single component or subsystem across the full production r
 
 ### 3.1 CPU (VR4300 / CPU-NUS)
 
-[TODO -- CPU-NUS vs CPU-NUS A transition. PRId values. mulmul / SRA bug scope. Mask work notation. Earliest/latest known datecodes per variant.]
+[TODO -- CPU-NUS vs CPU-NUS A transition. PRId values. mulmul / SRA bug scope. Mask work notation. Earliest/latest known datecodes per variant. Differences between VR4300 / R4300i and CPU-NUS (A).]
 
 ### 3.2 RCP (Reality Co-Processor / RCP-NUS)
 
-[TODO -- Known variants if any. Mask work. Datecodes across corpus.]
+[TODO -- No known variants. Mask work. Datecodes across corpus.]
 
 ### 3.3 Clock Generation (U7 / U15)
 
-[TODO -- MX8330MC, MX9911MC, MX8350 progression. Visual identification. FSEL logic. Production brackets. Mixed-pair configurations. U15 identity per revision.]
+[TODO -- MX8330MC, MX9911MC, MX8350 progression. Visual identification. FSEL logic. Production brackets. Mixed-pair configurations. U15 identity per revision. Of note: SGI Indy Ultra 64 Development Boards (MX8330MC), Aleck64 (MX8330MC), and iQue Player (ICS420BG).]
 
 ### 3.4 Video Output Path
 
@@ -166,19 +182,19 @@ Each section traces a single component or subsystem across the full production r
 
 ### 3.6 PIF-NUS
 
-[TODO -- Regional variants: PIF-NUS, PIF(M)-NUS, PIF(P)-NUS. Date code format. Known markings across corpus.]
+[TODO -- PIF-NUS, PIF(M)-NUS, PIF(P)-NUS, PIF-NUS Z. Prototype SHARP chip on Ultra 64 Development Board Rev A.]
 
 ### 3.7 RDRAM
 
-[TODO -- 2x RDRAM18-NUS A to 1x RDRAM36-NUS transition. Transition point (NUS-CPU-06 or later). Datecodes across corpus.]
+[TODO -- 2x RDRAM18-NUS A -> 2x RDRAM18-NUS B -> 1x RDRAM36-NUS. Datecodes across corpus.]
 
 ### 3.8 Support Logic (U8)
 
-[TODO -- TI SN74LVC125, TI LV125A, Toshiba TC74LCX125, ST 74LCX125, unknown VC125A. Known revisions per variant. Gaps.]
+[TODO -- TI SN74LVC125, TI LV125A, Toshiba TC74LCX125, Philips 74LVC125A. Known revisions per variant. Gaps.]
 
 ### 3.9 Voltage Regulation
 
-[TODO -- Sharp PQ7VZ5 and variants. Mitsumi PST9128. Known markings. Revisions.]
+[TODO -- Sharp PQ7VZ5 (`7VZ5`) and variants (`07VZ5M`). Mitsumi PST91XX (PST91280). Known markings. Revisions.]
 
 ---
 
