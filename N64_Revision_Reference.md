@@ -108,8 +108,8 @@ Revision     | PCB Date (range) | CPU-NUS     | Clock Gen                       
 :----------- | :--------------- | :---------- | :-------------------------------- | :-------------------- | :--------------- | :---------------- | :------------------------------------------------------------------------------------
 NUS-CPU-02   |                  | CPU-NUS     | 2x MX8330MC                       | VDC-NUS + ENC-NUS     | 2x RDRAM18-NUS A | Discrete          | NUS-001(USA) examples exclusively observed in store kiosk units
 NUS-CPU-03   |                  | CPU-NUS (A) | 2x MX8330MC                       | VDC-NUS (A) + ENC-NUS | 2x RDRAM18-NUS A | Discrete          | First appearance of CPU-NUS A and VDC-NUS A (mid-run; boundary aligns with 1996/1997)
-NUS-CPU-04   |                  | CPU-NUS A   | 2x MX8330MC                       | VDC-NUS A + ENC-NUS   | 2x RDRAM18-NUS B | Discrete          | First appearance of RDRAM18-NUS B
-NUS-CPU-05   |                  | CPU-NUS A   | MX8330MC + MX9911MC               | AVDC-NUS (MAV-NUS)    | 2x RDRAM18-NUS B | Discrete          | Only appearance of AVDC-NUS; first appearance of MX9911MC and MAV-NUS (mid-run)
+NUS-CPU-04   |                  | CPU-NUS A   | 2x MX8330MC (MX8330MC + MX9911MC) | VDC-NUS A + ENC-NUS   | 2x RDRAM18-NUS B | Discrete          | First appearance of RDRAM18-NUS B and MX9911MC
+NUS-CPU-05   |                  | CPU-NUS A   | MX8330MC + MX9911MC               | AVDC-NUS (MAV-NUS)    | 2x RDRAM18-NUS B | Discrete          | Only appearance of AVDC-NUS; first appearance of MAV-NUS (mid-run)
 NUS-CPU-05-1 |                  | CPU-NUS A   | MX8330MC + MX9911MC (2x MX9911MC) | MAV-NUS               | 2x RDRAM18-NUS B | Discrete          | Only(?) appearance of 2x MX9911MC; overlaps 05
 NUS-CPU-06   |                  | CPU-NUS A   | MX8330MC + MX9911MC (?)           | MAV-NUS               | RDRAM36-NUS      | Discrete          | Very rare; first appearance of RDRAM36-NUS; overlaps 05(-1)
 NUS-CPU-07   |                  | CPU-NUS A   | MX8330MC + MX9911MC (?)           | MAV-NUS               | RDRAM36-NUS      | Discrete          | Very rare; overlaps 05(-1)
@@ -162,7 +162,15 @@ Each section traces a single component or subsystem across the full production r
 
 ### 3.1 CPU (VR4300 / CPU-NUS)
 
-[TODO -- CPU-NUS vs CPU-NUS A transition. PRId values. mulmul / SRA bug scope. Mask work notation. Earliest/latest known datecodes per variant. Differences between VR4300 / R4300i and CPU-NUS (A).]
+[TODO -- CPU-NUS vs CPU-NUS A transition . PRId values. mulmul / SRA bug scope. Mask work notation. Earliest/latest known datecodes per variant. Differences between VR4300 / R4300i and CPU-NUS (A).]
+
+#### 3.1.1 CPU-NUS 
+
+NUS-CPU-01 to NUS-CPU-03 (1996/1997 changover)
+
+#### 3.1.2 CPU-NUS A
+
+NUS-CPU-03 to NUS-CPU-09-1
 
 ### 3.2 RCP (Reality Co-Processor / RCP-NUS)
 
@@ -170,15 +178,67 @@ Each section traces a single component or subsystem across the full production r
 
 ### 3.3 Clock Generation (U7 / U15)
 
-[TODO -- MX8330MC, MX9911MC, MX8350 progression. Visual identification. FSEL logic. Production brackets. Mixed-pair configurations. U15 identity per revision. Of note: SGI Indy Ultra 64 Development Boards (MX8330MC), Aleck64 (MX8330MC), and iQue Player (ICS420BG).]
+[TODO -- Visual identification. FSEL logic. Production brackets. Mixed-pair configurations. U15 identity per revision. Of note: SGI Indy Ultra 64 Development Boards (MX8330MC), Aleck64 (MX8330MC), and iQue Player (ICS420BG).]
+
+#### 3.3.1 MX8330MC
+
+NUS-CPU-01 to NUS-CPU-07
+
+#### 3.3.2 MX9911MC
+
+NUS-CPU-04 to NUS-CPU-07
+
+#### 3.3.3 MX8350
+
+NUS-CPU-08 to NUS-CPU-09-1
+
+#### 3.3.4 ICS420BG (iQue Player)
 
 ### 3.4 Video Output Path
 
 [TODO -- Full chip family: VDC-NUS, VDC-NUS A, ENC-NUS, DENC-NUS, S-RGB A, AVDC-NUS, MAV-NUS. Two-chip vs single-chip path. Audio DAC integration point. AVDC/MAV shared pinout. Multi-vendor MAV-NUS (BU9906F, RS5C382). Disambiguation rules.]
 
+#### 3.4.1 VDC-NUS
+
+NUS-CPU-01 to NUS-CPU-03 (1996/1997 changover)
+
+#### 3.4.2 VDC-NUS A
+
+NUS-CPU-03 to NUS-CPU-04
+
+#### 3.4.3 ENC-NUS
+
+NUS-CPU-01 to NUS-CPU-04
+
+#### 3.4.3 DENC-NUS
+
+NUS-CPU(P)-01
+
+#### 3.4.4 S-RGB A
+
+NUS-CPU(R)-01
+
+#### 3.4.5 AVDC-NUS
+
+NUS-CPU-05
+
+#### 3.4.6 MAV-NUS
+
+NUS-CPU-05 to NUS-CPU-09-1
+
+NUS-CPU(P)-02 to NUS-CPU(P)-03-1
+
 ### 3.5 Audio DAC
 
-[TODO -- BU9480F as standalone chip. Integration into AVDC-NUS / MAV-NUS. Revisions where BU9480F is absent. DENC-NUS does not integrate audio.]
+[TODO -- BU9480F as standalone chip. Integration into AVDC-NUS / MAV-NUS. DENC-NUS does not integrate audio.]
+
+#### BU9480F
+
+NUS-CPU-01 to NUS-CPU-04
+
+NUS-CPU(P)-01
+
+#### Integration into AVDC-NUS
 
 ### 3.6 PIF-NUS
 
@@ -187,6 +247,20 @@ Each section traces a single component or subsystem across the full production r
 ### 3.7 RDRAM
 
 [TODO -- 2x RDRAM18-NUS A -> 2x RDRAM18-NUS B -> 1x RDRAM36-NUS. Datecodes across corpus.]
+
+RDRAM18-NUS (with no suffix) has not been observed on any IC to date.
+
+#### 3.7.1 RDRAM18-NUS A
+
+NUS-CPU-01 to NUS-CPU-03
+
+#### 3.7.2 RDRAM18-NUS B
+
+NUS-CPU-04 to NUS-CPU-05-1
+
+#### 3.7.3 RDRAM36-NUS
+
+NUS-CPU-06 to NUS-CPU-09-1
 
 ### 3.8 Support Logic (U8)
 
